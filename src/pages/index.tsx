@@ -3,6 +3,10 @@ import Head from "next/head";
 import Link from "next/link";
 
 const Home: NextPage = () => {
+  try{
+  }
+  catch(e){
+  }
   return (
     <>
       <Head>
