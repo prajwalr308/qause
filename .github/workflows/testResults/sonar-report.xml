@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="<long path>/__tests__/api.test.js">
-    <testCase name="Feature when called with proper params then does somthing" duration="5"/>
-    <testCase name="Feature when called with wrong paramg then does nothing" duration="1"/>
-  </file>
+<file path="./test/bus-user-IT.js">
+<testCase name="TEST Integration test suite: Should onboard business and user" duration="2822"/>
+<testCase name="TEST Integration test suite: Session should be in VALIDATION COMPLETE state , Bus and User entities in ACTIVE state" duration="58075"/>
+<testCase name="TEST Integration test suite: should submit USER registration request successfully" duration="5011"/>
+<testCase name="TEST Integration test suite: Users must be in REGISTERED state" duration="33268"/>
+</file>
 </testExecutions>
