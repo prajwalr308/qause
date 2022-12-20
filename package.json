@@ -7,7 +7,7 @@
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
-    "test": "jest --watch --coverage --watchAll false --testResultsProcessor jest-sonar-reporter",
+    "test": "jest --watch --coverage",
     "sonar": "jest --watch --coverage --watchAll false --testResultsProcessor jest-sonar-reporter"
   },
   "dependencies": {
